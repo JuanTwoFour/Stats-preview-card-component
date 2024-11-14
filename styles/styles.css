@@ -11,11 +11,37 @@
 
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: var(--white);
+}
 
+html,
+body {
+  height: 100%;
+}
 
+html {
+  display: table;
+  margin: auto;
+}
 
+img {
+  width: 100%;
+}
 
-
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--very-dark-blue);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
