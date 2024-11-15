@@ -43,5 +43,18 @@ body {
   background-color: var(--very-dark-blue);
 }
 
+.main {
+  width: 25rem;
+  padding: 1.5rem;
+  border-radius: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile {
+
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
