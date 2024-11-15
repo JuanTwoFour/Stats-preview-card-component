@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,30 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/responsive-styles.css">
   <link rel="stylesheet" href="./styles/styles.css">
-  
+
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
+
 <body>
 
   <article class="main">
-    <img class="mobile" src="./images/image-header-mobile.jpg" alt="header">
+    <div class="image-overlay">
+      <img class="mobile-view" src="./images/image-header-mobile.jpg" alt="header">
+      <img class="desktop-view" src="./images/image-header-desktop.jpg" alt="header">
+    </div>
     <h1 class="title">Get <b style="color: var(--soft-violet);">insights</b> that help your business grow.</h1>
-  
+
     <p class="description">
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      Discover the benefits of data analytics and make better decisions regarding revenue, customer
       experience, and overall efficiency.
     </p>
-  
-    <h3 class="stat">10k+</h3> <p class="stat-holder">companies</p>
-    <h3 class="stat">314</h3> <p class="stat-holder">templates</p>
-    <h3 class="stat">12m+</h3> <p class="stat-holder">queries</p>
+
+    <h3 class="stat">10k+</h3>
+    <p class="stat-holder">companies</p>
+    <h3 class="stat">314</h3>
+    <p class="stat-holder">templates</p>
+    <h3 class="stat">12m+</h3>
+    <p class="stat-holder">queries</p>
   </article>
 
   <footer class="attribution">
@@ -31,4 +39,5 @@
     Coded by <a href="#">Juan Vega</a>.
   </footer>
 </body>
+
 </html>

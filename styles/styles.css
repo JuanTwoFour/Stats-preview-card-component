@@ -52,8 +52,20 @@ body {
   align-items: center;
 }
 
-.mobile {
+.image-overlay {
+  position: relative;
+  display: inline-block; /* Adjust as needed */
+}
 
+.image-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(95, 22, 122, 0.6); /* Purple color with 50% opacity */
+  pointer-events: none; /* Allows clicks to pass through */
 }
 
 .attribution { font-size: 11px; text-align: center; }
