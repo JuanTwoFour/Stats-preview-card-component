@@ -45,11 +45,14 @@ body {
 
 .main {
   width: 25rem;
-  padding: 1.5rem;
-  border-radius: 1.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--dark-desaturated-blue);
+}
+
+.border {
+  border-radius: 20px 20px 0 0;
 }
 
 .image-overlay {
@@ -66,6 +69,7 @@ body {
   height: 100%;
   background-color: rgba(95, 22, 122, 0.6); /* Purple color with 50% opacity */
   pointer-events: none; /* Allows clicks to pass through */
+  border-radius: 20px 20px 0 0;
 }
 
 .attribution { font-size: 11px; text-align: center; }
